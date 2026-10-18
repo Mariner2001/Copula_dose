@@ -1,0 +1,55 @@
+{
+  "bvn_max_abs_err_vs_scipy": 3.991251773527438e-14,
+  "latent_check": {
+    "pE": 0.65,
+    "pT": 0.3,
+    "clayton_theta": 3.0,
+    "p11_monte_carlo": 0.2907925,
+    "p11_correct": 0.2909119573300414,
+    "p11_li_et_al_appendixA": 0.39091195733004147,
+    "p00_monte_carlo": 0.340971,
+    "p00_formula": 0.3409119573300414,
+    "FE_values": [
+      0.35,
+      1.0
+    ]
+  },
+  "gp_check": {
+    "p01_correct": 0.03629818648857647,
+    "p01_as_printed": 0.5920945868162069,
+    "p11_correct": 0.27223935223741036,
+    "p11_as_printed": -0.28355704809021987
+  },
+  "tau_check": {
+    "gauss_0.8": [
+      0.5903344706017332,
+      0.5903282364151539
+    ],
+    "clayton_2": [
+      0.5,
+      0.4999999294777375
+    ],
+    "frank_5": [
+      0.4567009581601168,
+      0.4567008487391071
+    ]
+  },
+  "plackett_OR_range": [
+    7.2999999999995255,
+    7.300000000000303
+  ],
+  "scenario1_acceptance_rate": 0.559265183704074,
+  "scenario1_rates": {
+    "E": 0.5042775,
+    "T": 0.2731425,
+    "ET": 0.145085
+  },
+  "scenario1_phi_ET": 0.03297167829042354,
+  "fig1_share_region_phi0.8_feasible": 0.21122222222222223,
+  "fig1_share_region_phi-0.8_feasible": 0.21122222222222223,
+  "phi_max_examples": {
+    "pE=0.6,pT=0.3": 0.5345224838248488,
+    "pE=0.8,pT=0.2": 0.25
+  },
+  "fig1_FG_max_utility_change": 0.02951672353008666
+}

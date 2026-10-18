@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article below."
+title: "When does the copula matter in utility-based individualized dose selection? Code and data"
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: "[Surname]"
+    given-names: "[Given names]"
+    affiliation: "[Institution]"
+preferred-citation:
+  type: article
+  title: "When does the copula matter in utility-based individualized dose selection?"
+  authors:
+    - family-names: "[Surname]"
+      given-names: "[Given names]"
+  journal: "[Journal]"
+  year: "[Year]"
+  doi: "[DOI]"
