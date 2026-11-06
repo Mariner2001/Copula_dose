@@ -1,0 +1,22 @@
+\small
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+Rule & TFE & $\kappa=-0.6$ & U1 & U3 & U2 & $\kappa=+0.6$ & NFT\\
+\midrule
+\multicolumn{8}{@{}l}{\textit{(a) Improvement over the estimated fixed dose (\%IP)}}\\
+Probit, independence & 36.0 & 65.5 & 76.8 & 80.1 & 84.1 & 88.6 & 80.4\\
+Probit, Gaussian $\hat\alpha$ (IFM) & 43.0 & 69.0 & 77.2 & 80.8 & 84.1 & 87.5 & 76.4\\
+Probit, Gaussian, true $\alpha$ & 43.9 & 69.1 & 77.2 & 80.8 & 84.1 & 87.9 & 78.8\\
+Forest, independence & \ensuremath{-}24.7 & 13.1 & 28.1 & 41.4 & 46.5 & 53.1 & \ensuremath{-}16.2\\
+Forest, $\hat\alpha$ in-sample & \ensuremath{-}31.2 & 19.0 & 29.7 & 44.4 & 46.5 & 41.6 & \ensuremath{-}80.6\\
+Forest, $\hat\alpha$ out-of-bag & \ensuremath{-}27.8 & 16.0 & 28.9 & 42.7 & 46.5 & 48.9 & \ensuremath{-}39.7\\
+Forest, true $\alpha$ & \ensuremath{-}29.3 & 17.8 & 29.4 & 43.5 & 46.5 & 45.6 & \ensuremath{-}57.3\\
+\midrule
+\multicolumn{8}{@{}l}{\textit{(b) Paired difference with the independence rule (utility points)}}\\
+Probit: $\hat\alpha$ $-$ independence & 0.235 & 0.196 & 0.031 & 0.054 & 0.000 & \ensuremath{-}0.097 & \ensuremath{-}0.114\\
+Probit: true $\alpha$ $-$ independence & 0.265 & 0.203 & 0.031 & 0.054 & 0.000 & \ensuremath{-}0.067 & \ensuremath{-}0.048\\
+Forest: in-sample $\hat\alpha$ $-$ indep. & \ensuremath{-}0.209 & 0.341 & 0.112 & 0.250 & 0.000 & \ensuremath{-}1.018 & \ensuremath{-}1.779\\
+Forest: out-of-bag $\hat\alpha$ $-$ indep. & \ensuremath{-}0.099 & 0.170 & 0.060 & 0.108 & 0.000 & \ensuremath{-}0.381 & \ensuremath{-}0.649\\
+Forest: true $\alpha$ $-$ independence & \ensuremath{-}0.148 & 0.269 & 0.091 & 0.179 & 0.000 & \ensuremath{-}0.667 & \ensuremath{-}1.138\\
+\bottomrule
+\end{tabular}

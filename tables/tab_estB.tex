@@ -1,0 +1,13 @@
+\small
+\begin{tabular}{@{}llrrrrrrr@{}}
+\toprule
+& & LR test & & \multicolumn{3}{c}{$\Delta_1$} & \multicolumn{2}{c}{$\Delta_2$}\\
+\cmidrule(lr){5-7}\cmidrule(l){8-9}
+Truth & $N$ & reject (\%) & $\hat\alpha$: mean (SD) & TFE & U1 & NFT & TFE & NFT\\
+\midrule
+constant $\alpha=0.8$ & 200 & 10.2 & 0.82 (0.15) & 0.234 & 0.032 & \ensuremath{-}0.103 & \ensuremath{-}0.143 & \ensuremath{-}0.125\\
+ & 500 & 5.0 & 0.80 (0.09) & 0.329 & 0.025 & \ensuremath{-}0.001 & \ensuremath{-}0.045 & \ensuremath{-}0.041\\
+$\alpha(d)=\tanh(0.75+0.75d)$ & 200 & 25.2 & 0.69 (0.20) & 0.211 & 0.030 & \ensuremath{-}0.055 & \ensuremath{-}0.167 & \ensuremath{-}0.193\\
+ & 500 & 41.4 & 0.64 (0.12) & 0.312 & 0.023 & 0.048 & 0.029 & \ensuremath{-}0.007\\
+\bottomrule
+\end{tabular}
