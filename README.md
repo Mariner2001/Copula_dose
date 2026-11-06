@@ -2,7 +2,7 @@
 
 This repository contains the code, the input data and all simulation outputs behind the article
 
-> [Authors]. *When does the dependence between efficacy and toxicity matter in utility-based individualized dose selection?* [Journal], [year]. DOI: [to be added].
+> Úbeda-Flores, M. *When does the dependence between efficacy and toxicity matter in utility-based individualized dose selection?* [Journal], [year]. DOI: [to be added].
 
 Every number, table and figure in the article and its Supplementary Material can be regenerated with `run_all.sh`. No individual
 patient data are used: the only empirical input is a 2×2 table of summary counts published by
