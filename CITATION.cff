@@ -4,15 +4,12 @@ title: "When does the dependence between efficacy and toxicity matter in utility
 version: 1.0.0
 license: MIT
 authors:
-  - family-names: "[Surname]"
-    given-names: "[Given names]"
-    affiliation: "[Institution]"
+  - family-names: "Úbeda-Flores"
+    given-names: "Manuel"
+    affiliation: "University of Almería"
 preferred-citation:
   type: article
   title: "When does the dependence between efficacy and toxicity matter in utility-based individualized dose selection?"
-  authors:
-    - family-names: "[Surname]"
-      given-names: "[Given names]"
-  journal: "[Journal]"
-  year: "[Year]"
-  doi: "[DOI]"
+  journal: " "
+  year: " "
+  doi: " "
